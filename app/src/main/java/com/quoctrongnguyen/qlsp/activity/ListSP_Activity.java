@@ -27,7 +27,7 @@ public class ListSP_Activity extends AppCompatActivity
 
     private void addControl()
     {
-        lstSanPham = findViewById(R.id.listviewsanpham);
+        lstSanPham = findViewById(R.id.lvSP);
     }
 
     private void init()
