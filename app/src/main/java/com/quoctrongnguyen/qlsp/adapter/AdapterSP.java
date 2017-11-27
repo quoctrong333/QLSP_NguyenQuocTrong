@@ -53,7 +53,7 @@ public class AdapterSP extends BaseAdapter
     public View getView(int i, View view, ViewGroup viewGroup)
     {
         //inflater là ép layout lên view . như adapter ép dữ liệu list lên listview
-        view = inflater.inflate(R.layout.item_sanpham,null);
+        view = inflater.inflate(R.layout.item_sanpham, null);
         //anhxa
         TextView txtMaSo = view.findViewById(R.id.txtMaSP);
         TextView txtTen = view.findViewById(R.id.txtTenSP);
