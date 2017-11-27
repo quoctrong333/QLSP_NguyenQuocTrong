@@ -16,13 +16,13 @@ import java.util.ArrayList;
  * Created by quoct on 26/11/2017.
  */
 
-public class adapterLoaiSP extends BaseAdapter {
+public class AdapterLoaiSP extends BaseAdapter {
     Context context;
     ArrayList<LoaiSP> loaiSanPhamArrayList;
     LayoutInflater inflater;
 
     //constructor
-    public adapterLoaiSP(Context context, ArrayList<LoaiSP> loaiSanPhamArrayList) {
+    public AdapterLoaiSP(Context context, ArrayList<LoaiSP> loaiSanPhamArrayList) {
         this.context = context;
         this.loaiSanPhamArrayList = loaiSanPhamArrayList;
         inflater = LayoutInflater.from(context);
